@@ -1,0 +1,13 @@
+For GCC/g++ 
+-----------
+
+1. put rule file into \etc\udev\rules.d folder and restart machine
+
+2. put libMFS100V9022 into /usr/local/lib or /usr/lib
+3. put libiengine_ansi_iso into /usr/lib
+
+3. run gcc
+	gcc main.c -liengine_ansi_iso -lMFS100V9021 -lstdc++ -lpthread -ldl -lrt -lusb -lm -o test
+
+4. execute ./test
+

@@ -1,0 +1,10 @@
+#MFS100
+SUBSYSTEM=="usb",ATTR{idVendor}=="04b4",ATTR{idProduct}=="8613",MODE="0666"
+SUBSYSTEM=="usb",ATTR{idVendor}=="04b4",ATTR{idProduct}=="1005",MODE="0666"
+SUBSYSTEM=="usb",ATTR{idVendor}=="04b4",ATTR{idProduct}=="1004",MODE="0666"
+SUBSYSTEM=="usb",ATTR{idVendor}=="2c0f",ATTR{idProduct}=="1005",MODE="0666"
+
+
+
+
+
